@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="background-color:#212121">
+    
+    <h1 style="color:#fff">Welcome to js</h1>
+    <button id="stop" style="cursor:pointer">stop</button>
+    
+</body>
+           
+<script>
+      
+    //   const newHeading = setTimeout(function(){
+
+    //     console.log("Js course is interesting")
+    //   },3000)
+
+    const sayJPMorgan = function(){
+
+        console.log("Hired in JP Morgan")
+    }
+
+    const changeText = function(){
+
+        document.querySelector('h1').innerHTML="Congratulations"
+    }
+
+    const changeMe = setTimeout(changeText,5000)
+    
+    document.querySelector('#stop').addEventListener('click',function(){
+
+        clearTimeout(changeMe)
+        console.log("stopped")
+    })
+</script>
+</html>

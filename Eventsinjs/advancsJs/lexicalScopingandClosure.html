@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+    <button id="orange" style ="cursor:pointer">Orange</button>
+    <button id="green" style = "cursor:pointer">Green</button>
+</body>
+
+    <script>
+
+        //  document.getElementById("orange").onclick=function(){
+
+        //     document.body.style.backgroundColor=`orange`
+        //  }
+
+        //  document.getElementById("green").onclick=function(){
+
+        //     document.body.style.backgroundColor=`green`
+        //  }
+
+        // document.querySelector("#orange").addEventListener('click',function(){
+            
+        //     document.body.style.backgroundColor=`orange`
+
+        // })  //We can use this form also
+
+        function clickHandler(color){
+               
+            return function(){
+
+                 document.body.style.backgroundColor=`${color}`
+            }
+        }
+
+        document.getElementById("orange").onclick=clickHandler("orange")
+        document.getElementById("green").onclick=clickHandler("green")
+
+
+        
+    </script>
+</html>
