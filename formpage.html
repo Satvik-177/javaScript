@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="formpagestyle.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="formpage">
+
+            <header class="heading">
+
+               <p id="heading1">Job Application</p>
+               <p id="headingtype">(Web)</p>
+
+            </header>
+
+            <section>
+
+                <form>
+
+                    <div class="names">
+
+                        <div id="firstName">
+                            First Name:<div>
+                                <input type="text" placeholder="Enter your first Name" required id="textboxFname">
+                                       </div>
+                        </div>
+    
+                        <div id="lastName">
+                            Last Name:<div>
+                                <input type="text"  placeholder="Enter your last Name" required id="textboxLname">
+                                      </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="jobemail">
+
+                        <div id="email">
+                            E-mail:<div>
+                                <input type="email" placeholder="Enter your mail" id="textboxemail">
+                                   </div>        
+                        </div>
+
+                        <div id="role">
+
+                            Job Role:
+                            <div>
+                            <select id="textboxJob">
+
+                                <option value="">--Please choose an option:</option>
+                                <option value="engineer">UI/UX Developer</option>
+                                <option value="engineer">Software Developer</option>
+                                <option value="engineer">Software Engineer</option>
+                                <option value="engineer">Associate Technical</option>
+
+                            </select>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="location">
+
+                        <div id="Address">
+                             
+                            Address:
+                            <div>
+                            <textarea rows="5" cols="50" id="textboxaddress"></textarea>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="Area">
+
+                        <div id="city">
+                            City:
+                            <div>
+                            <input type="text" placeholder="Enter your city" id="textboxcity">
+                            </div>
+                        </div>
+
+                        <div id="pincode">
+                            Pincode:
+                            <div>
+                            <input type="number" placeholder="Enter your pincode" id="textboxpincode">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fileandstart">
+
+                        <div id="start">
+                             Start Date:
+                             <div>
+                            <input type="date" placeholder="Enter date" id="textboxdate">
+                             </div>
+                        </div>
+
+                        <div id="fileupload">
+                             Upload Resume/Cv:
+                            <div>
+                            <input type="file" id="textboxcv">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button id="applybutton"><p id="applyid">Apply now</p></button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
