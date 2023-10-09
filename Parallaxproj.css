@@ -1,0 +1,177 @@
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.containerone {
+
+    /* border:5px solid red;  */
+    height:88.5vh;
+    background-image: url("naturalimage1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 63.5%;
+}
+
+#image1text {
+
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color:#fff;
+    transform: translateY(25vh);
+    background-color:#222121;
+     
+}
+
+#image1wrapper {
+
+display:flex;
+justify-content: center;
+}
+
+#seconedescription {
+
+    transform:translateY(57vh);
+    /* border:2px solid orange; */
+    color: #fff;
+    background-color:#292828;
+}
+
+#heading1 {
+
+     text-align: center;
+}
+
+#paragraph1 {
+
+      text-align: center;
+}
+
+.containertwo {
+
+   height:88.5vh;
+    /* border:5px solid yellow;  */
+   background-repeat: no-repeat;
+   background-image: url("naturalground.jpg");
+   background-size: 100% 75%;
+   background-attachment: fixed;
+   
+
+}
+
+#image2text {
+
+   font-size: xx-large;
+   text-align: center;
+   color:#fff;
+   text-transform: uppercase;
+   transform: translateY(25vh);
+   background-color:#272626;
+}
+
+#image2wrapper {
+
+    display:flex;
+    justify-content: center;
+}
+
+#sectwodescription {
+
+  /* border:2px solid orange; */
+  transform:translateY(57vh);
+  background-color: #2f2e2e;
+  color:#fff;
+}
+
+#heading2 {
+
+   text-align: center;
+}
+
+#paragraph2 {
+
+   text-align: center;
+}
+
+.containerthree {
+
+    /* border:5px solid pink; */
+    height:88.5vh;
+    background-image: url("waterfallnatural.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 75%;
+    /* margin-top: 25px; */
+
+
+}
+
+#image3text {
+
+  text-align: center;
+  font-size: xx-large;
+  text-transform: uppercase;
+  color:#fff;
+  transform: translateY(25vh);
+  background-color:#232222;
+
+}
+
+#image3wrapper {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#secthreedescription {
+
+  transform:translateY(57vh);
+  /* border:2px solid orange; */
+  background-color: #2f2e2e;
+  color:#fff;
+}
+
+#heading3 {
+
+  text-align: center;
+}
+
+#paragraph3 {
+
+  text-align: center;
+}
+
+.containerfour {
+
+  height:68.5vh;
+  /* border:5px solid purple; */
+  background-repeat: no-repeat;
+  background-image: url("naturalimage1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /* margin-top: 25px; */
+
+}
+
+#image4text {
+
+  font-size: xx-large;
+  text-align: center;
+  color:#fff;
+  text-transform: uppercase;
+  transform: translateY(25vh);
+  background-color:#2b2929;
+
+}
+
+#image4wrapper {
+
+    display:flex;
+    justify-content: center;
+}
+ 
