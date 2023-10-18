@@ -1,0 +1,123 @@
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height:100%;
+    width:100%;
+}
+
+.container1 {
+
+    height:10vh;
+    width:100vw;
+    text-align:center;
+}
+
+.container2 {
+
+   
+    height:88vh;
+    width:70vw;
+    transform:translateX(20%);
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:0.9rem;
+   
+}
+
+.item{
+    border-radius: 9px;
+}
+
+#gulabjamun {
+    
+    height:22vh;
+    background-image:url("gulabjamun.jpg");
+    background-size: cover;
+}
+
+#aboutitem {
+
+    height:12vh;
+    padding:4px;
+    margin-top: 0.8rem;
+    margin-left:0.5rem;
+}
+
+#para {
+
+    margin-top: 5px;
+    font-size: small;
+}
+
+.button {
+
+    height:4.2vh;
+    width:7vw;
+    transform:translateX(9vw);
+    border-radius: 6px;
+    cursor:pointer;
+    transition:all;
+    text-align:center;
+    color:blue;
+}
+
+.button:hover {
+
+    background-color: red;
+}
+
+#kajukatli {
+    
+    height:22vh;
+    background-image:url("kajuburfi.webp");
+    background-size: cover;
+}
+
+#milkcake {
+    
+    height:22vh;
+    background-image:url("milkcake.jpg");
+    background-size: cover;
+}
+
+#matthi {
+    
+    height:22vh;
+    background-image:url("matthi.jpg");
+    background-size: cover;
+}
+
+#chandrakala {
+    
+    height:22vh;
+    background-image:url("chandrakala.jpg");
+    background-size: cover;
+}
+
+#motichur {
+    
+    height:22vh;
+    background-image:url("motichurLaddu.webp");
+    background-size: cover;
+}
+
+#besanladdu {
+    
+    height:22vh;
+    background-image:url("besan-ladoo.webp");
+    background-size: cover;
+}
+
+#soanpapdi {
+    
+    height:22vh;
+    background-image:url("soanpapdi.webp");
+    background-size: cover;
+}
